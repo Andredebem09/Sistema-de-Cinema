@@ -1,0 +1,163 @@
+{
+  "filmes": [
+    {
+      "id": 1,
+      "titulo": "insterstellar",
+      "sinopse": "testeeeeee",
+      "classificacao": "16",
+      "duracao": 120,
+      "genero": "ficção",
+      "dataInicioExibicao": "2025-12-12",
+      "dataFimExibicao": "2026-01-10",
+      "urlPoster": "https://ingresso-a.akamaihd.net/img/cinema/cartaz/4238-cartaz.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "minecraft: o filme",
+      "sinopse": "Quatro pessoas comuns (Garrett, Natalie, Henry e Dawn) são acidentalmente transportadas para o universo de blocos de Minecraft através de um portal. Lá, eles precisam se aliar a Steve (interpretado por Jack Black), um experiente construtor do Overworld, para encontrar uma forma de voltar para casa. A missão deles envolve enfrentar o malvado Piglin gigante chamado Malgocha, que busca dominar o mundo e acabar com a criatividade",
+      "classificacao": "12",
+      "duracao": 90,
+      "genero": "infantil",
+      "dataInicioExibicao": "2026-02-12",
+      "dataFimExibicao": "2026-03-12",
+      "urlPoster": "https://p2.trrsf.com/image/fget/cf/940/0/images.terra.com/2024/11/20/1973597620-minecraftthemoviever3xlg.jpg"
+    },
+    {
+      "titulo": "F1: O filme",
+      "sinopse": "é um drama esportivo sobre o ex-piloto Sonny Hayes (Brad Pitt) que retorna à Fórmula 1 para ser mentor do jovem Joshua Pearce (Damson Idris), enquanto a equipe fictícia APXGP luta para se manter competitiva. O filme, dirigido por Joseph Kosinski, combina cenas de ação em corridas filmadas durante GPs reais com uma trama que explora a relação entre os dois pilotos, a pressão da equipe e a rivalidade crescente entre eles. ",
+      "classificacao": "16",
+      "duracao": 90,
+      "genero": "Ação",
+      "dataInicioExibicao": "2025-12-13",
+      "dataFimExibicao": "2026-01-01",
+      "urlPoster": "https://ingresso-a.akamaihd.net/prd/img/movie/f1-o-filme/3a0a118e-8bf3-4e10-b45d-f028cd49b001.webp",
+      "id": 3
+    },
+    {
+      "titulo": "Five Nights at Freddy's 2",
+      "sinopse": " tanto o jogo quanto o filme (2025), envolve um cenário de terror onde os animatrônicos se tornam mais agressivos e novos personagens surgem, enquanto o protagonista (Mike) e a policial Vanessa tentam proteger Abby de um horror antigo que se manifesta na cidade após a menina tentar se reconectar com Freddy, Bonnie, Chica e Foxy, revelando segredos sombrios da Pizzaria Freddy Fazbear",
+      "classificacao": "14",
+      "duracao": 90,
+      "genero": "Terror/mistério",
+      "dataInicioExibicao": "2025-12-10",
+      "dataFimExibicao": "2026-01-25",
+      "urlPoster": "https://ingresso-a.akamaihd.net/b2b/production/uploads/articles-content/2197a1f1-4863-47ef-b5f7-2819a9c9508e.jpg",
+      "id": 4
+    }
+  ],
+  "salas": [
+    {
+      "id": 1,
+      "numero": 1,
+      "capacidade": 20
+    },
+    {
+      "numero": 2,
+      "capacidade": 40,
+      "id": 2
+    }
+  ],
+  "sessoes": [
+    {
+      "filmeId": 1,
+      "salaId": 1,
+      "horarioExibicao": "2025-12-27T19:50",
+      "id": 1
+    },
+    {
+      "filmeId": 2,
+      "salaId": 1,
+      "horarioExibicao": "2026-02-24T12:12",
+      "id": 2
+    },
+    {
+      "filmeId": 3,
+      "salaId": 1,
+      "horarioExibicao": "2025-12-29T21:30",
+      "id": 3
+    },
+    {
+      "filmeId": 4,
+      "salaId": 2,
+      "horarioExibicao": "2025-12-24T20:30",
+      "id": 4
+    }
+  ],
+  "ingressos": [
+    {
+      "tipo": "INTEIRA",
+      "valorIngresso": 30,
+      "valorCombos": 28,
+      "valorTotal": 58,
+      "sessaoId": 2,
+      "combosSelecionadosIds": [
+        2
+      ],
+      "id": 1
+    },
+    {
+      "tipo": "INTEIRA",
+      "valorIngresso": 30,
+      "valorCombos": 35,
+      "valorTotal": 65,
+      "sessaoId": 1,
+      "combosSelecionadosIds": [
+        3
+      ],
+      "id": 2
+    },
+    {
+      "tipo": "INTEIRA",
+      "valorIngresso": 30,
+      "valorCombos": 0,
+      "valorTotal": 30,
+      "sessaoId": 1,
+      "combosSelecionadosIds": [],
+      "id": 3
+    },
+    {
+      "tipo": "MEIA",
+      "valorIngresso": 15,
+      "valorCombos": 28,
+      "valorTotal": 43,
+      "sessaoId": 1,
+      "combosSelecionadosIds": [
+        2
+      ],
+      "formaPagamento": "PIX",
+      "id": 4
+    },
+    {
+      "tipo": "MEIA",
+      "valorIngresso": 15,
+      "valorCombos": 35,
+      "valorTotal": 50,
+      "sessaoId": 4,
+      "combosSelecionadosIds": [
+        3
+      ],
+      "formaPagamento": "PIX",
+      "id": 5
+    }
+  ],
+  "combos": [
+    {
+      "id": 1,
+      "descricao": "Pipoca pequena + refrigerante",
+      "tamanho": "P",
+      "valorUnitario": 20
+    },
+    {
+      "id": 2,
+      "descricao": "Pipoca média + refrigerante",
+      "tamanho": "M",
+      "valorUnitario": 28
+    },
+    {
+      "id": 3,
+      "descricao": "Pipoca grande + refrigerante",
+      "tamanho": "G",
+      "valorUnitario": 35
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+:root {
+  --bs-primary: #c1121f;
+  --bs-primary-rgb: 193, 18, 31;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #c1121f;
+  border-color: #c1121f;
+}
+
+.btn-primary:hover {
+  background-color: #a50f1a;
+  border-color: #a50f1a;
+}
+
+.btn-outline-primary {
+  color: #c1121f;
+  border-color: #c1121f;
+}
+
+.btn-outline-primary:hover {
+  background-color: #c1121f;
+  border-color: #c1121f;
+  color: #fff;
+}
+
+.input-error {
+  border-color: #dc3545 !important;
+}
+
+small.text-danger {
+  display: block;
+}
+
+.navbar-red {
+  background-color: #c1121f !important;
+}
+
+/* TEXTOS /
+.text-primary {
+  color: #c1121f !important;
+}
+
+/ BACKGROUNDS /
+.bg-primary {
+  background-color: #c1121f !important;
+}
+
+/ BOTÕES /
+.btn-primary {
+  background-color: #c1121f !important;
+  border-color: #c1121f !important;
+}
+
+.btn-primary:hover {
+  background-color: #a50f1a !important;
+  border-color: #a50f1a !important;
+}
+
+/ BOTÕES OUTLINE /
+.btn-outline-primary {
+  color: #c1121f !important;
+  border-color: #c1121f !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #c1121f !important;
+  color: #fff !important;
+}
+
+/ LINKS /
+a {
+  color: #c1121f;
+}
+
+a:hover {
+  color: #a50f1a;
+}
+
+/ TABELAS (caso use table-primary) */
+.table-primary {
+  --bs-table-bg: #f8d7da;
+  --bs-table-color: #842029;
+}
