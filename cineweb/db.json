@@ -1,0 +1,73 @@
+{
+  "filmes": [
+    {
+      "id": "1",
+      "titulo": "A Viagem Incrível",
+      "sinopse": "Uma aventura espacial cheia de emoções.",
+      "classificacao": "Livre",
+      "duracao": 110,
+      "genero": "Aventura",
+      "datas": [
+        "2025-12-10",
+        "2025-12-11"
+      ]
+    },
+    {
+      "id": "ae55",
+      "titulo": "minecraft",
+      "sinopse": "testeeeeeee",
+      "classificacao": "12",
+      "duracao": 90,
+      "genero": "terror",
+      "datas": [
+        "11",
+        "12",
+        "2025"
+      ]
+    }
+  ],
+  "salas": [
+    {
+      "id": "913a",
+      "numero": 23,
+      "capacidade": 23
+    }
+  ],
+  "sessoes": [
+    {
+      "id": "1",
+      "filmeId": 1,
+      "salaId": 1,
+      "dataHora": "2025-12-11T19:30:00"
+    },
+    {
+      "id": "9682",
+      "filmeId": 1,
+      "salaId": null,
+      "dataHora": "2025-12-11T12:12"
+    }
+  ],
+  "ingressos": [
+    {
+      "id": "4d00",
+      "tipo": "inteira",
+      "sessaoId": 1,
+      "valor": 20,
+      "hora": "2025-12-10T00:22:34.167Z"
+    },
+    {
+      "id": "8c69",
+      "tipo": "inteira",
+      "sessaoId": 1,
+      "valor": 20,
+      "hora": "2025-12-10T00:22:36.462Z"
+    },
+    {
+      "id": "8e96",
+      "tipo": "inteira",
+      "sessaoId": 1,
+      "valor": 20,
+      "hora": "2025-12-10T00:22:40.244Z"
+    }
+  ]
+}
