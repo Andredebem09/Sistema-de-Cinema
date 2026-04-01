@@ -16,7 +16,7 @@ export default function Sessoes() {
   return (
     <>
       <div className="d-flex justify-content-between align-items-center mb-4">
-        <h2 className="page-title">⏰ Sessões</h2>
+        <h2 className="page-title"> Sessões</h2>
         <a className="btn btn-cine" href="/sessoes/novo">+ Nova Sessão</a>
       </div>
 
